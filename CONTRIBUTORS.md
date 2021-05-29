@@ -13,4 +13,6 @@
   <li>@XavierPlayz ツ#8901</li>
   <li>@Fabri#8017</li>
   <li>@dāvid̔̏̊#7777</li>
+  <li>@Evorp#5819</li>
+  <li>@Fractalis#9059</li>
 </ul>
