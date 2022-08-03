@@ -22,8 +22,7 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSH }}
         script: |
-          cd "./packs/Faithful-Java-64x"
-          git checkout ${{ steps.branch-name.outputs.current_branch }}
+          cd "./packs/Faithful-Java-64x/${{ steps.branch-name.outputs.current_branch }}"
           git pull
           zip -r "Faithful 64x - ${{ steps.branch-name.outputs.current_branch }} Experimental.zip" . -x "*.git*" -x "*.github*" -x ".gitignore"
           mv "Faithful 64x - ${{ steps.branch-name.outputs.current_branch }} Experimental.zip" "/var/www/html/database.faithfulpack.net/packs/64x-Java/Experimental"
