@@ -1,10 +1,15 @@
 {
   "pack": {
-    "pack_format": 42,
+    "pack_format": 34,
     "description": "A default-style 64x resource pack for Minecraft Java Edition.",
     "supported_formats": {
+<<<<<<< HEAD
       "min_inclusive": 42,
       "max_inclusive": 43
+=======
+      "min_inclusive": 33,
+      "max_inclusive": 34
+>>>>>>> parent of 94e68e9a (Update pack.mcmeta)
     }
   }
 }
